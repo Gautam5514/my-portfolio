@@ -4,7 +4,7 @@
     --bg-black-100:#fdf9ff;
     --bg-black-50:#e8dfec;
     --text-black-900:#302e4d;
-    --text-black-7000:#504e70;
+    --text-black-700:#504e70;
 
 }
 body.dark
@@ -13,7 +13,7 @@ body.dark
     --bg-black-100:#222222;
     --bg-black-50:#393939;
     --text-black-900:#ffffff;
-    --text-black-7000:#e9e9e9;
+    --text-black-700:#e9e9e9;
 
 }
 body{
@@ -123,7 +123,7 @@ ul{
 /*aside*/
 .aside{
     width: 270px;
-    background: var (--bg-black-100);
+    background: var(--bg-black-100);
     position: fixed;
     left: 0;
     top: 0;
@@ -557,6 +557,7 @@ h3.my-profession{
 }
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
+    aspect-ratio: 1/1;
     display: block;
 }
 /* Contact*/
@@ -674,6 +675,12 @@ h3.my-profession{
     .about .about-content .personal-info{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .aside{
+        display: none;
+    }
+    .main-content{
+        margin-left: 0;
     }
 }
 
