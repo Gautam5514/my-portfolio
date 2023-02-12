@@ -93,7 +93,7 @@ ul{
     position: absolute;
     top: 100%;
     left: 0;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 .row{
     display: flex;
@@ -285,7 +285,7 @@ h3.my-profession{
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: -30px;
-    bottom: 280px;
+    bottom: 180px;
 }
 .home-img::before{
     content: '';
@@ -582,7 +582,7 @@ h3.my-profession{
 .contact .contact-info-item .icon{
     display: inline-block;
 }
-.conatct .contact-info-item .icon .fa{
+.contact .contact-info-item .icon .fa{
     font-size: 25px;
     color: var(--skin-color);
 }
@@ -596,7 +596,7 @@ h3.my-profession{
 .contact .contact-info-item p{
     font-size: 16px;
     line-height: 25px;
-    color: var(--text-block-700);
+    color: var(--text-black-700);
     font-weight: 400;
 }
 .contact .contact-form{
